@@ -1,0 +1,9 @@
+[Unit]
+Description=X1 Carbon Gen9 Throttling Fix
+
+[Service]
+Type=simple
+ExecStart=/home/mop/projects/x1-carbon-gen9-hammer/hammer.sh
+
+[Install]
+WantedBy=multi-user.target
